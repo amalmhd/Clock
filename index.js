@@ -29,12 +29,27 @@ function makediv(){
     let container = document.createElement('div');
     container.id='dynamic-block';
     container.class='timing';
+    container.class='timing1';
+    container.class='timing2';
+    container.class='timing3';
 
-    document.querySelector('.item4').appendChild(container);
+    document.querySelector('.timing').appendChild(container);
 
     let invalue = document.querySelector("#wakeUptime");
-    let value = document.invalue.options[invalue.selectedIndex].text;
-    console.log(value);
+    let value = invalue.options[invalue.selectedIndex].text;
+    document.querySelector('.timing').innerHTML='Wake Up Time : '+value;
+    
+    let invalue1 = document.querySelector("#lunchTime");
+    let value1 = invalue.options[invalue.selectedIndex].text;
+    document.querySelector('.timing1').innerHTML='Lunch Time : '+value1;
+    
+    let invalue2 = document.querySelector("#napTime");
+    let value2 = invalue.options[invalue.selectedIndex].text;
+    document.querySelector('.timing2').innerHTML='Nap Time : '+value2;
+    
+    let invalue3 = document.querySelector("#nightTime");
+    let value3 = invalue.options[invalue.selectedIndex].text;
+    document.querySelector('.timing3').innerHTML='Night Time : '+value3;
 }
 
 function settime(){
@@ -46,6 +61,7 @@ function settime(){
 
     document.querySelector('.item3').style.display="block";
     document.querySelector('.grid2-item2').style.display="block";
+    document.querySelector('.timin').style.display="block";
 
     if(i == hrs){
         document.querySelector('#image').src='assets/Group 5183-1.png';

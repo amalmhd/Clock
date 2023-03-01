@@ -103,16 +103,18 @@ select{
     padding-left: 0;
 }
 
-.timing{
+.timin{
+    display: none;
     background-color: #ffffff23;
     border-radius: 10px;
     width: 35%;
     margin-top: -10px;
     color: #F25CFE;
+    font-size: small;
 }
 
-.timing span{
-    display: block;
+.timing, .timing1, .timing2, .timing3{
+    padding: 5px;
 }
 
 .btn{
