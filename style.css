@@ -1,0 +1,212 @@
+body{
+    background-color: #3D087B;
+    font-family: 'poppins', sans-serif;
+}
+
+div{
+    padding: 10px;
+}
+
+button{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+option{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+select{
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+.main{
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+
+.grid1{
+    width: 50%;
+}
+
+
+.time img{
+    padding: 10px 10px 0px 10px;
+}
+
+.item2{
+    background-color: #fff;
+    width: 80%;
+    border-radius: 10px;
+}
+
+label{
+    position: relative;
+    top: -10px;
+}
+
+select{
+    margin-left: 20px;
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    border: solid 1px rgba(8, 8, 8, 0.32);
+    border-radius: 3px;
+}
+
+#wakeUptime{
+    position: relative;
+    top: -10px;
+}
+
+#lunchTime{
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+
+#napTime{
+    position: relative;
+    left: 30px;
+    top: -10px;
+}
+
+#nightTime{
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+
+.item3{
+    display: none;
+    background-color: #ffffff23;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    text-align: start;
+}
+
+.item4{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 1em;
+    padding-left: 0;
+}
+
+.timing{
+    background-color: #ffffff23;
+    border-radius: 10px;
+    width: 35%;
+    margin-top: -10px;
+    color: #F25CFE;
+}
+
+.timing span{
+    display: block;
+}
+
+.btn{
+    height: 30px;
+    color: #fff;
+    font-size: 20px;
+    background: linear-gradient(to right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+    width: 40%;
+    border-radius: 4px;
+    text-align: center;
+}
+
+
+.grid2{
+    width: 50%;
+}
+
+.grid2-item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-div p{
+    padding: 0;
+    margin: 0;
+}
+
+.ub{
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3D087B;
+}
+
+.ub h1, .ub div{
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.ub div{
+    padding: 1em;
+    text-align: center;
+    background: #F6E2FF;
+    min-width: 10%;
+    font-weight: 500;
+}
+
+#am-pm{
+    background: url(assets/AM_svg.png);
+    font-size: 2.5em;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.lb1{
+    background: #ffffff;
+    opacity: 71%;
+    width: 75%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.lb2{
+    background: #fff;
+    opacity: 22%;
+    width: 60%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.grid2-item2{
+    display: none;
+    background: #fff;
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: center;
+    color: #8e53f0;
+    padding: 30px 0px 30px 0px;
+    width: 100%;
+}
+
+.grid2-item3{
+    margin-top: 10px;
+    width: 100%;
+    height: 50%;
+    /* background-image: url(assets/Group\ 5194.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 10px 0px 10px 0px; 
+}
+
+.grid2-item3 img{
+    width: 100%;
+}
